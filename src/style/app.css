@@ -1,0 +1,160 @@
+@font-face {
+    src: url('../assets/tt-hoves/TT-Hoves-DemiBold.otf');
+    font-family: "TTHoves-DemiBold";
+}
+
+/* @font-face {
+    src: url('/public/font/GraphikLight.otf');
+    font-family: "Graphik-bold";
+} */
+
+* {
+    font-family: "Graphik-light" !important;
+}
+
+.red{
+    background-color: red;
+    color: #ffffff;
+}
+.side{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-right: -4px;
+    opacity: 1;
+    height: 100%;
+    position: fixed !important;
+    overflow: none !important;
+    z-index: 1;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+  
+}
+.route:hover{
+    background: #093ECB1A 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+.icon{
+    font-size: 23px;
+}
+.route{
+    cursor: pointer;
+    color: #31314F;
+
+}
+.active-item{
+    top: 0px;
+    left: 0px;
+    border-right: 2px solid #093ECB;
+    opacity: 1;
+    background: #093ECB1A 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.logout{
+    position: fixed;
+    bottom: 0;
+    width: 16.7%;
+    cursor: pointer;
+}
+.logout:hover{
+    background-color: rgb(255, 180, 180);
+    opacity: 1;
+}
+.body_dashboard{
+    background: #F5F5FB 0% 0% no-repeat padding-box;
+    /* opacity: 0.6; */
+    height: 100%;
+}
+.trans-btn{
+    background: transparent;
+    border: transparent;
+    outline: none !important;
+    font-size: 25px;
+    display: none;
+
+}
+.page-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #093ECB;
+}
+.section_title{
+    color: #16152B;
+    text-align: left;
+    font-size: 18px;    
+    font-weight: bold;
+}
+.vault-text{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.vault-number{
+    font-size: 16px;
+    margin-left: 6px;
+}
+.border-bottom{
+    border-bottom: 1px solid #DEDEDE;
+
+}
+.white_bg{
+    background-color: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+}
+.table_headerside{
+    border-bottom: 1px solid #DEDEDE;
+
+}
+.table_content{
+    border-bottom: 1px solid #DEDEDE;
+
+}
+.font_32{
+    font-size: 29px;
+    font-weight: bolder;
+    color: #16152B;
+}
+.wlcm_text{
+    color: #16152B;
+}
+.share{
+    border: 2px solid #DEDEDE;
+    border-radius: 5px;
+}
+.share-btn{
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    background: #F5F5FB 0% 0% no-repeat padding-box;
+}
+.share-btn:hover{
+    /* color: ; */
+    background: rgb(218, 218, 247) 0% 0% no-repeat padding-box;
+}
+.font_14{
+    font-size: 14px;
+}
+.font_12{
+    font-size: 12px;
+}
+.overflow{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.date_selector{
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    display: none;
+}
+.cards-text{
+    font-size: 18px;
+    color: #16152B;
+    font-weight: bold;
+}
+.card-number{
+    font-size: 40px;
+    color: #160C72;
+
+}
