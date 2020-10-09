@@ -20,8 +20,8 @@
         <div class="section_title">Contest Leaderboard</div>
         <div class="row">
           <resultcards
-            v-for="card in cardData"
-            :key="card.text"
+            v-for="(card, index) in cardData"
+            :key="index"
             :number="card.number"
             :text="card.text"
           />
@@ -54,8 +54,8 @@
       </div>
       <div class="row pt-3 pl-2">
         <resultbottomcards
-          v-for="card in bottomCardData"
-          :key="card.text"
+          v-for="(card, index) in bottomCardData"
+          :key="index"
           :number="card.number"
           :text="card.text"
         />

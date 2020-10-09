@@ -10,8 +10,8 @@
             router === route.route ? 'active-item ' + routeClass : routeClass
           "
           :id="route.name"
-          v-for="route in routes"
-          :key="route.name"
+          v-for="(route , index)in routes"
+          :key="index"
           @click="changeRoute(route)"
         >
           <span :class="'mdi mr-2 icon ' + route.icon"></span>

@@ -23,8 +23,8 @@
       >
         <li
           class="m-2 li p-1"
-          v-for="path in routes"
-          :key="path.name"
+          v-for="(path, index )in routes"
+          :key="index"
           @click="changeRoute(path)"
         >
           <router-link

@@ -82,8 +82,8 @@
     <section class="black-box p-5 width-100">
       <div class="row p-4 justify-content-center">
         <blackcards
-          v-for="category in blackCard"
-          :key="category.title"
+          v-for="(category, index )in blackCard"
+          :key="index"
           :imgLink="category.img"
           :title="category.title"
           :paragraph1="category.paragraph1"
@@ -225,8 +225,8 @@
       </div>
       <section class="row news-card-div p-5 d-flex justify-content-center">
         <newscards
-          v-for="category in newscard"
-          :key="category.title"
+          v-for="(category, index ) in newscard"
+          :key="index"
           :imgLink="category.imgLink"
           :title="category.title"
           :content="category.content"

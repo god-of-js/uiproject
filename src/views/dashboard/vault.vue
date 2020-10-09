@@ -4,8 +4,8 @@
       <div class="page-title pb-3">VAULT</div>
       <div class="row d-flex justify-content-between">
         <vaultcard
-          v-for="val in cardDetais"
-          :key="val.title"
+          v-for="(val, index) in cardDetais"
+          :key="index"
           :title="val.title"
           :caption1="val.caption1"
           :value1="val.value1"

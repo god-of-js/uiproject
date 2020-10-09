@@ -4,8 +4,8 @@
     <section class="white_bg">
       <div
         class="d-flex pt-2 pb-2 border-bottom align-items-center pl-0"
-        v-for="step in steps"
-        :key="step.text"
+        v-for="(step, index) in steps"
+        :key="index"
       >
         <div class="step col-1 text-right m-2">steps {{ step.step }}</div>
         <div class="step-comment col-8 col-sm-6 text-left m-2">

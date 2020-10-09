@@ -37,8 +37,8 @@
     </section>
     <section class="row p-2 d-flex justify-content-between">
       <cards
-        v-for="card in cardDetails"
-        :key="card.header"
+        v-for="(card, index) in cardDetails"
+        :key="index"
         :header="card.header"
         :number="card.number"
         :color="card.color"
